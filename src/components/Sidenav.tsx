@@ -59,9 +59,41 @@ const Sidenav = () => {
                         
                     </div>
                 ) : (
-                    <div></div>
+                    ''
                 )
             }
+            <div className='md:block hidden fixed top-[25%] z-10'>
+                <div className='flex flex-col'>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <AiOutlineHome size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaUserCircle size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaGraduationCap size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaBriefcase size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaProjectDiagram size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaBookOpen size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaTrophy size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaFileAlt size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaEnvelope size = {20}/>
+                    </a>
+                </div>
+            </div>
+
         </div>
     );
 }; 

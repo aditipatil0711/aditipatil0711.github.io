@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import {useState} from 'react';
 import {AiOutlineHome, AiOutlineMenu} from 'react-icons/ai';
 import {FaUserCircle,FaGraduationCap,FaBriefcase, FaProjectDiagram, FaBookOpen, FaTrophy, FaFileAlt, FaEnvelope} from 'react-icons/fa';
 

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {SiGooglescholar} from 'react-icons/si';
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';

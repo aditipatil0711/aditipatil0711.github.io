@@ -33,12 +33,13 @@ const Work = () => {
         <h1  className="text-4xl font-bold text-center text-[#001b5e]">Work</h1>    
         {data.map((item,idx) => (
             <WorkItem 
-            key={idx} 
-            year={item.year}
-            company = {item.company}
-            position={item.position}
-            duration = {item.duration}
-            description = {item.description}/>
+                key={idx} 
+                year={item.year.toString()}
+                company={item.company}
+                position={item.position}
+                duration={item.duration}
+                description={item.description}
+            />
         )           
         )}
         </div>

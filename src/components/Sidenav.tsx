@@ -35,16 +35,16 @@ const Sidenav = () => {
                             <span className='pl-4'>Experience</span>
                         </a>
                         <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                            <FaProjectDiagram  size = {20}/>
-                            <span className='pl-4'>Projects</span>
-                        </a>
-                        <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <FaBookOpen  size = {20}/>
                             <span className='pl-4'>Publications</span>
                         </a>
                         <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <FaTrophy  size = {20}/>
                             <span className='pl-4'>Achievements</span>
+                        </a>
+                        <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                            <FaProjectDiagram  size = {20}/>
+                            <span className='pl-4'>Projects</span>
                         </a>
                         <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <FaFileAlt    size = {20}/>
@@ -77,13 +77,13 @@ const Sidenav = () => {
                         <FaBriefcase size = {20}/>
                     </a>
                     <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaProjectDiagram size = {20}/>
-                    </a>
-                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaBookOpen size = {20}/>
                     </a>
                     <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaTrophy size = {20}/>
+                    </a>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaProjectDiagram size = {20}/>
                     </a>
                     <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaFileAlt size = {20}/>

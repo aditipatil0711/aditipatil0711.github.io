@@ -6,8 +6,8 @@ import { TypeAnimation } from 'react-type-animation';
 const Main = () => {
     return (
         <div id='main'>
-        <img className= 'w-full h-screen object-cover object-left scale-x-[1]' src="/bckgrd2.jpg"  alt="background"/>
-        <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
+        <img className= 'w-full h-screen object-cover object-left scale-x-[1]' src="/img-7.png"  alt="background"/>
+        <div className="w-full h-screen absolute top-0 left-0 bg-white/25">
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-ceenter'>
             <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Hi! I'm Aditi Patil </h1>
             <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>

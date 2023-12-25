@@ -14,9 +14,7 @@ const Projects = () => {
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
                 <ProjectItem img={citi} title='Stock Recommender System'/>
-                <ProjectItem img={isl} title='Indian Sign Language Recognition'
-                    
-                />
+                <ProjectItem img={isl} title='Indian Sign Language Recognition'/>
             </div>
         </div>
                     

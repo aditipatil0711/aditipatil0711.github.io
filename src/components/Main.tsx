@@ -1,6 +1,6 @@
 
 import {SiGooglescholar} from 'react-icons/si';
-import {  FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
+import {  FaMedium , FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
 const Main = () => {
@@ -35,13 +35,22 @@ const Main = () => {
     />
             </h2>
             <div className='flex justify-between pt-6 max-w [100px] w-full'>
-                <FaLinkedin className ='cursor-pointer' size={20} />
-                <FaFacebookF className ='cursor-pointer' size={20} />
-                <FaInstagram className ='cursor-pointer' size={20}/>
-                <FaTwitter className ='cursor-pointer' size={20}/>
+                <a href="https://www.linkedin.com/in/addy-patil/">
+                <FaLinkedin className ='cursor-pointer'  size={20} />
+                </a>
+                <a href="https://medium.com/@addy07">
+                <FaMedium className ='cursor-pointer' size={20} /> </a>
+                <a href= "https://github.com/aditipatil0711">
                 <FaGithub className ='cursor-pointer' size={20}/>
-                <SiGooglescholar className ='cursor-pointer' size={20}/>
-                <FaYoutube className ='cursor-pointer' size={20}/>
+                </a>
+                <a href='https://scholar.google.com/citations?user=nsAVyv8AAAAJ&hl=en'>
+                <SiGooglescholar className ='cursor-pointer' size={20}/> </a>
+                <a href='https://www.youtube.com/@aditiprabhakarpatil3929'>
+                <FaYoutube className ='cursor-pointer' size={20}/></a>
+                <a href="https://www.instagram.com/anthropomorphic_diamond/?hl=en">
+                <FaInstagram className ='cursor-pointer' size={20}/> </a>
+                <a  href="https://twitter.com/Addy_0711">
+                <FaTwitter className ='cursor-pointer' size={20}/> </a>
             </div>
         </div>
         </div>

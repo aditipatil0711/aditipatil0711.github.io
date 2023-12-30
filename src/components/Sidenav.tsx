@@ -86,7 +86,7 @@ const Sidenav = () => {
                         <FaGraduationCap size = {20}/>
                     </a>
                     <a  
-                    href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    href='#work' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaBriefcase size = {20}/>
                     </a>
                     <a 

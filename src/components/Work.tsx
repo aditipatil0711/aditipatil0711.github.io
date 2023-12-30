@@ -1,7 +1,7 @@
 import WorkItem from "./WorkItem";
 const data = [
     {
-        year: "Aug 2022 - Present",
+        year: "Aug 2022 - Aug 2023",
         company: "CITICORP SERVICES INDIA PVT LTD.",
         position: "Technology Analyst: Markets Technology",
         duration: "Since Aug 2022",

@@ -11,20 +11,6 @@ interface PublicationItemProps {
     publication: Publication;
 }
 
-const publicationsData = [
-    {
-        title: "Literature Survey: Sign Language Recognition Using Gesture Recognition and Natural Language Processing",
-        journal: "Data Management, Analytics and Innovation",
-        year: 2021,
-        link: "http://link-to-publication-1.com" // Replace with actual link
-    },
-    {
-        title: "Object Recognition and Classification for Robotics Using Virtualization and AI Acceleration on Cloud and Edge",
-        journal: "Data Management, Analytics and Innovation",
-        year: 2021,
-        link: "http://link-to-publication-2.com" // Replace with actual link
-    }
-];
 const PublicationItem: React.FC<PublicationItemProps> = ({ publication }) => {
     return (
         <div className="bg-white p-4 rounded-lg shadow-md mb-4">

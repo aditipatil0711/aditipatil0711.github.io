@@ -7,6 +7,8 @@ import Contact from './components/Contact'
 import Introduction from './components/Introduction'
 import Education from './components/Education'
 import Publications from './components/Publications'
+import Achievements from './components/Achievements'
+import Resume from './components/Resume'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Work/>
       <Publications/>
       <Projects/>
+      <Achievements/>
+      <Resume/>
       <Contact/>
     </div>
   )

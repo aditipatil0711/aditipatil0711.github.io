@@ -7,14 +7,14 @@ const publicationsData = [
         journal: "Data Management, Analytics and Innovation",
         year: 2021,
         link: "https://link.springer.com/chapter/10.1007/978-981-16-2934-1_13",
-        imagePath: "public/isl-pub.png" // Replace with actual path
+        imagePath: "src/assets/isl-pub.png" // Replace with actual path
     },
     {
         title: "Object Recognition and Classification for Robotics Using Virtualization and AI Acceleration on Cloud and Edge",
         journal: "Data Management, Analytics and Innovation",
         year: 2021,
         link: "https://link.springer.com/chapter/10.1007/978-981-16-2937-2_10",
-        imagePath: "public/nifepub.png" // Replace with actual path
+        imagePath: "src/assets/nifepub.png" // Replace with actual path
     }
 ];
 

@@ -9,6 +9,7 @@ import Education from './components/Education'
 import Publications from './components/Publications'
 import Achievements from './components/Achievements'
 import Resume from './components/Resume'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Achievements/>
       <Resume/>
       <Contact/>
+      <Footer/> {/* Add Footer component here */}
     </div>
   )
 }

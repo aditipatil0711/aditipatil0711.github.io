@@ -1,9 +1,28 @@
+import React, { useState } from 'react';
+
 const Contact = () => {
+    const [showForm, setShowForm] = useState(false);
+
+    const toggleFormVisibility = () => {
+        setShowForm(!showForm);
+    };
     return (
         <div id='contact' className='max-w-[1040px] m-auto md:pl p-4 py-16'>
             <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>
                 Contact
             </h1>
+            <div className='bg-white shadow-lg rounded-lg p-4'>
+                <h2 className='text-2xl font-semibold'>Get in Touch</h2>
+                <p className='py-2'>Phone: +1234567890</p>
+                <p className='py-2'>Email: your.email@example.com</p>
+                <button 
+                    onClick={toggleFormVisibility} 
+                    className="bg-[#001b5e] text-white rounded-md px-4 py-2 mt-4 hover:bg-blue-700 transition duration-200 ease-in-out"
+                >
+                    Contact Me
+                </button>
+
+                {showForm && (
             <form action='https://getform.io/f/e6850f41-9acd-4896-8bc2-0897ca4e7a3e' method="POST" encType="multipart/form-data">
                 <div className='grid md:grid-cols-1 gap-4 w-full py-2'>
 
@@ -47,8 +66,10 @@ const Contact = () => {
 
                 </div>
             </form>
+            )}
+        </div>
         </div>
     )
 }
 
-export default Contact
+export default Contact;

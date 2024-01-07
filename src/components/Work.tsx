@@ -4,7 +4,7 @@ const data = [
         year: "Aug 2022 - Aug 2023",
         company: "CITICORP SERVICES INDIA PVT LTD.",
         position: "Technology Analyst: Markets Technology",
-        duration: "Since Aug 2022",
+        duration: "July 2022 - Aug 2023",
         description:["Developed new products and features for Swap Trades under Client Reporting Platform for Equity Prime Swaps.",
         "Worked on Cloud storage Technologies like S3, Kubernetes, and Microservices architecture.",
         "Ensured Data Quality and Accuracy on extensive Client Trade Data.",

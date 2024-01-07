@@ -1,7 +1,7 @@
 import React from 'react';
 import PublicationItem from './PublicationItem';
-import islPubImage from './assets/isl-pub.png'; // Adjust the path as necessary
-import nifePubImage from './assets/nifepub.png'; // Adjust the path as necessary
+import islPubImage from '../assets/isl-pub.png'; // Adjust the path as necessary
+import nifePubImage from '../assets/nifepub.png'; // Adjust the path as necessary
 
 
 const publicationsData = [

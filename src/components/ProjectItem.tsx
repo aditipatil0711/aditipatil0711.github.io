@@ -2,7 +2,6 @@
 
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 interface ProjectItemProps {
     img: string;
@@ -18,7 +17,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ img, title, tech, link }) => 
             <div className="flex-grow flex flex-col justify-between p-4 bg-white">
                 <h3 className="text-xl font-bold text-[#001b5e] mb-2">{title}</h3>
                 <p className="text-gray-600 text-sm">{tech}</p>
-                <Link to={link} className="text-lg font-semibold bg-[#001b5e] text-white py-2 px-4 rounded-lg transition duration-300 ease-in-out hover:bg-[#000d6b]"></Link>
+               
                <a href={link} target="_blank" rel="noopener noreferrer" className="self-start mt-4">
                     <button className="text-lg font-semibold bg-[#001b5e] text-white py-2 px-4 rounded-lg transition duration-300 ease-in-out hover:bg-[#000d6b]">
                         More Info

@@ -31,7 +31,7 @@ const Introduction = () => {
                 <img src={currentImage} alt="Profile" className="w-48 h-48 mb-8 md:mb-0 md:mr-12" />
                 <div>
                     <p className="text-lg text-justify md:text-justify">
-                        Hello! I'm Aditi Patil, currently pursuing my Masters in Software Engineering at San Jose State University since August 2023. 
+                        Hello! I'm Aditi Patil, currently pursuing my Masters in Software Engineering at San Jose State University since August 2023. I recently worked as a Cloud Engineering Intern at Illumio. I will be graduating in May 2025 and I am actively looking for full-time opportunities in Software Engineering. 
                         {/* more text ... */}
                     </p>
                     {/* Interactive Highlights */}
@@ -39,6 +39,7 @@ const Introduction = () => {
                         <li>
                           <strong>Prior Experience:</strong>
                           <ul className="list-disc list-inside ml-5">
+                              <li>Illumio Inc.</li>
                               <li>Citicorp Services India Pvt Ltd</li>
                               <li>Nife Labs Pte Ltd</li>
                               <li>Tata Communications Limited</li>

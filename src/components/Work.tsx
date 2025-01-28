@@ -1,6 +1,17 @@
 import WorkItem from "./WorkItem";
 const data = [
     {
+        year: "May 2024 - Dec 2024",
+        company: "ILLUMINA INC.",
+        position: "Cloud Engineering Intern, Architecture Team",
+        duration: "May 2024 - Dec 2024",
+        description: [
+            "Improved the efficiency of the Policy Compute Engine by horizontal scaling, achieving an almost 30x increase in calculation efficiency through rigorous load testing.",
+            "Designed and implemented orchestration logic to configure and scale Redis replicas in Ruby, and ensured robust support through end-to-end regression testing. She also supported release activities in December 2024 release updates.",
+            "Created Helm charts and utilized ArgoCD for SaaS application deployment, conducting load testing with performance analysis using Grafana Dashboards.",
+            " Designed and Implemented initial development for an event-driven system to replace legacy polling mechanisms with a Java-based notification service, enhancing system responsiveness."]
+    },
+    {
         year: "Aug 2022 - Aug 2023",
         company: "CITICORP SERVICES INDIA PVT LTD.",
         position: "Technology Analyst: Markets Technology",

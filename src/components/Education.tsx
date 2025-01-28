@@ -6,7 +6,7 @@ const educationData = [
         year: "2023 - Present",
         institution: "San Jose State University",
             degree: "Master of Science in Software Engineering",
-        description: "GPA: 3.9/4.0"
+        description: "GPA: 3.8/4.0"
     },
     {
         year: "2017 - 2021",

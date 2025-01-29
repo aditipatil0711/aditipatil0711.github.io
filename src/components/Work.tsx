@@ -2,7 +2,7 @@ import WorkItem from "./WorkItem";
 const data = [
     {
         year: "May 2024 - Dec 2024",
-        company: "ILLUMINA INC.",
+        company: "ILLUMIO INC.",
         position: "Cloud Engineering Intern, Architecture Team",
         duration: "May 2024 - Dec 2024",
         description: [

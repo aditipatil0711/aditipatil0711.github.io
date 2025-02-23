@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import './App.css'
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 
@@ -11,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

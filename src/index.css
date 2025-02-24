@@ -9,3 +9,11 @@ body {
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif; /* ✅ Directly setting the font */
 }
+
+@theme {
+  --color-background-lightest: #FBFBFB;
+  --color-background-light: #629584;
+  --color-primary: #243642;
+  --color-text: #3D3D3D;
+  --color-navbartext: #F2EFE7;
+}

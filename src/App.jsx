@@ -7,8 +7,11 @@ import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-import Recognition from "./components/Recognition";
+import RecognitionsBanner from "./components/RecognitionsBanner";
 import ResumeSection from "./components/ResumeSection";
+import Publications from "./components/Publications";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
       <ResumeSection />
       <Education />
       <Experience />
-      <Recognition /> 
+      <Publications />
+      <RecognitionsBanner /> 
+      <Contact />
+      <Footer />
     </div>
   );
 }

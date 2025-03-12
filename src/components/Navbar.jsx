@@ -10,8 +10,9 @@ const Navbar = () => {
         {/* Right: Links */}
         <div className="space-x-6 text-navbartext text-md font-body">
           <a href="#projects" className="hover:text-primary">Projects</a>
-          <a href="https://github.com/" target="_blank" className="hover:text-primary">Github</a>
-          <a href="/public/resume.pdf" target="_blank" className="hover:text-primary">Resume</a>
+          <a href="https://github.com/aditipatil0711" target="_blank" className="hover:text-primary">Github</a>
+          <a href="src/assets/docs/resume.pdf" target="_blank" className="hover:text-primary">Resume</a>
+          <a href="#aboutme" className="hover:text-primary">About Me</a>
         </div>
       </div>
     </nav>

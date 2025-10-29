@@ -3,7 +3,7 @@ import EducationItem from "./EducationItem";
 const educationData = [
     // Add your education data here in a similar format to the work experience data
     {
-        year: "2023 - Present",
+        year: "2023 - 2025",
         institution: "San Jose State University",
             degree: "Master of Science in Software Engineering",
         description: "GPA: 3.8/4.0"

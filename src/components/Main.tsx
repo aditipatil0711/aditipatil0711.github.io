@@ -14,7 +14,9 @@ const Main = () => {
             <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'I am a MS SE Student at San Jose State University',
+        'I am an SWE at Amazon',
+        1000, 
+        'I am a MS SE Graduate from San Jose State University',
         1000, 
         'I am an ex-Technology Analyst at Citi',
         1000,

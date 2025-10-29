@@ -1,6 +1,17 @@
 import WorkItem from "./WorkItem";
 const data = [
     {
+        year: "June 2025 - Present",
+        company: "AMMAZON",
+        position: "Software Development Engineer",
+        duration: "June 2025 - Present",
+        description: [
+            "Led the migration of legacy Payment Service from JDK8 → JDK17, addressing integration dependencies, security, and performance risks.",
+            "Upgraded AWS CDK v1 → v2, addressing CDK Deadly Embrace issue, ensuring migration stability within CI/CD environments.",
+            "Performed extensive root-cause analyses (RCA) and created an Improvement Design proposing detailed Integration-Test workflows, creating beta testing frameworks, safer deployment strategies, and an AI-based deployment evaluation tool.",
+            "Refined CloudWatch composite-alarm thresholds for key latency and error metrics, improving incident detection accuracy and reducing false positives during On-Call Operations of Payment Services. Raised Unit test coverage for code base 30% → 68%."]
+    },
+    {
         year: "May 2024 - Dec 2024",
         company: "ILLUMIO INC.",
         position: "Cloud Engineering Intern, Architecture Team",

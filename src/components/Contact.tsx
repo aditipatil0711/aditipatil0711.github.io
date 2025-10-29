@@ -14,7 +14,7 @@ const Contact = () => {
             <div className='bg-white shadow-lg rounded-lg p-4'>
                 <h2 className='text-2xl font-semibold'>Get in Touch</h2>
                 <p className='py-2'>Phone: +16692546518</p>
-                <p className='py-2'>Email: aditi.patil@sjsu.edu</p>
+                <p className='py-2'>Email: patiladiti752@gmail.com</p>
                 <button 
                     onClick={toggleFormVisibility} 
                     className="bg-[#001b5e] text-white rounded-md px-4 py-2 mt-4 hover:bg-blue-700 transition duration-200 ease-in-out"

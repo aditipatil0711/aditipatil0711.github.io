@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 
 const Achievements: React.FC = () => {
@@ -11,7 +9,10 @@ const Achievements: React.FC = () => {
 
     // List of achievements
     const achievements = [
-        "Currently volunteering in Women In Machine Learning and Data Science’s (WiMLDS) Pune [Link]",
+        "Founding Alumni of SJSU EES Alumni Program",
+        <span>Featured in Illumio Blog: <a href="https://www.illumio.com/blog/meet-aditi-patil-q-a-with-an-illumio-cloud-engineering-intern" target="_blank" rel="noopener noreferrer">Read here</a></span>,
+        "Received Citi's Equity Prime Rising Star (Gratitude) Award for contributing to Business critical changes and features in Citi",
+        <span>Volunteered in Women In Machine Learning and Data Science’s (WiMLDS) Pune: <a href="https://wimldspune.wordpress.com/2022/08/08/aditi-patil/" target="_blank" rel="noopener noreferrer">Read here</a></span>,
         "Recognition as a Special Mention project under the category of Social Impact in Natarajan Education Society's NES Innovation Award 2020-21 for our B.Tech Project “Vaani: Natural Language Processing for Indian Sign Language.”",
         "Received Global Recognition for our Practice Venture: “ToDoor Services,” as a Real Venture with high prospects of becoming a Real business by Wadhwani Foundation’s National Entrepreneurship Network (ToDoor Services was in action from August 2020 to February 2021 in Aurangabad, Maharashtra).",
         "Selected for Citi-Bridge Program under the 100 women -100 hours training and mentorship by Citi(2020).",
@@ -19,8 +20,6 @@ const Achievements: React.FC = () => {
         "Represented Cummins College in the National Level Competition of ABU Robocon for two years: (the Year 2019: Rank 17th and Year -2018: Rank 31st).",
         "Volunteering at Pune-WiMLDS (August 2020 to Present)",
         "Student Representative in SWE (Society of Women Engineers) Cummins(2019-2020)"
-
-        // ... Add the rest of your achievements here
     ];
 
     return (

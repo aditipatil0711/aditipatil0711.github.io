@@ -2,7 +2,7 @@ import WorkItem from "./WorkItem";
 const data = [
     {
         year: "June 2025 - Present",
-        company: "AMMAZON",
+        company: "AMAZON",
         position: "Software Development Engineer",
         duration: "June 2025 - Present",
         description: [
